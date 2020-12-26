@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 import soru2.Book;
 
-public class Application2 {
+public class Application {
 
 	public static void main(String[] args) {
 
