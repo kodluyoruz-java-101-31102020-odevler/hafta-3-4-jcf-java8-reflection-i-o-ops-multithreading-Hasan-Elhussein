@@ -1,0 +1,23 @@
+(ArrayList):
+ 
+	* Objeleri saklamak icin dinamik bir Array kullanir
+	
+	* Manipule islemleri daha yavastir (LinkedList'e gore)
+	  cunku: yapmak istedigimiz her bir "ekleme/silme" isleminde, kalan tum objelerin kaydirilmasi lazim.
+	  
+	* ArrayList, LinkedList'e gore daha az hafiza kullanir.
+	
+	* bilgileri saklamak ve ulasmak icin daha iyidir.
+	
+(LinkedList):
+
+	* Objeleri saklamak icin Doubly linked list kullanir.
+	
+	* Manipule islemleri daha hizlidir (LinkedList'e gore)
+	  cunku: ekleme/silme islemlerinde, sadece objeler arasindaki baglantiyi duzelmek gerekir.
+	  ArrayList'teki gibi "Kaydirma" islemi yoktur.
+	  
+	* LinkedList, ArrayList'e gore daha fazla hafiza kullanir.
+	  cunku: saklanacak veri ile beraber, "onceki" ve "sonraki" dugumlerin referanslari saklanir. 
+	
+	* Manipule islemleri icin daha iyidir.
